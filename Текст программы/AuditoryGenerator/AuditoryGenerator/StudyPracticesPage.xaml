@@ -1,0 +1,249 @@
+﻿<Page x:Class="AuditoryGenerator.StudyPracticesPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d"
+      xmlns:sys="clr-namespace:System;assembly=mscorlib"
+      d:DesignHeight="800" d:DesignWidth="1200"
+      Title="StudyPracticesPage">
+
+    <Grid Cursor="">
+        <!-- Таб контрол -->
+        <TabControl Style="{StaticResource MaterialDesignFilledTabControl}" 
+                    materialDesign:ColorZoneAssist.Mode="Custom"
+                    materialDesign:ColorZoneAssist.Foreground="White"
+                    materialDesign:ColorZoneAssist.Background="#FF0A1129"
+                    Margin="10">
+
+            <!-- Таб для учебных практик Нахимовский -->
+            <!-- Таб для учебных практик Нахимовский -->
+            <TabItem Header="Учебные практики - Нахимовский">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Левая часть (поля ввода) -->
+                    <StackPanel Grid.Row="0" Grid.Column="0" Margin="0,0,10,0">
+
+                        <ComboBox x:Name="GroupComboBoxNahim"
+                      Style="{StaticResource MaterialDesignFilledComboBox}"
+                      IsEditable="True"
+                      materialDesign:TextFieldAssist.HasClearButton="True"
+                      materialDesign:HintAssist.Hint="Группа"
+                      DisplayMemberPath="Name"
+                      SelectedValuePath="Id"
+                      Margin="0,0,0,10" FontSize="16"/>
+
+                        <ComboBox x:Name="RoomComboBoxNahimPractice"
+                      Style="{StaticResource MaterialDesignFilledComboBox}"
+                      IsEditable="True"
+                      materialDesign:TextFieldAssist.HasClearButton="True"
+                      materialDesign:HintAssist.Hint="Аудитория"
+                      DisplayMemberPath="RoomNumber"
+                      SelectedValuePath="Id"
+                      Margin="0,0,0,10" FontSize="16"/>
+
+                        <ComboBox x:Name="TeacherComboBoxNahim"
+                      Style="{StaticResource MaterialDesignFilledComboBox}"
+                      IsEditable="True"
+                      materialDesign:TextFieldAssist.HasClearButton="True"
+                      materialDesign:HintAssist.Hint="Преподаватель"
+                      DisplayMemberPath="FullName"
+                      SelectedValuePath="Id"
+                      Margin="0,0,0,10" FontSize="16"/>
+
+                        <DatePicker x:Name="PracticeDateNahim"
+                        DisplayDateStart="{x:Static sys:DateTime.Today}"
+                        Style="{StaticResource MaterialDesignDatePicker}"
+                        Language="ru-RU"
+                        Margin="0,0,0,10" SelectedDateFormat="Long"/>
+
+                        <TextBox x:Name="LessonRangeNahimPractice"
+                     Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                     materialDesign:HintAssist.Hint="Диапазон пар (например, 1-2, 4)"
+                     Margin="0,0,0,10" FontSize="16"/>
+                    </StackPanel>
+
+                    <!-- Правая часть (кнопки) -->
+                    <StackPanel Grid.Row="0" Grid.Column="1" VerticalAlignment="Top" Margin="0,75,0,0">
+                        <Button Content="Добавить практику (Нахимовский)" Background="#FF0A1129"
+                    Margin="0,0,0,10" Click="AddPracticeNahim_Click"/>
+
+                        <Button Content="Удалить практику (Нахимовский)" Background="#FF290A0A"
+                    Margin="0,10,0,0" Click="DeletePracticeNahim_Click"/>
+                    </StackPanel>
+
+                    <!-- DataGrid -->
+                    <DataGrid x:Name="PracticeDataGridNahim"
+                  Grid.Row="1"
+                  Grid.ColumnSpan="2"
+                  AutoGenerateColumns="False"
+                  Margin="0,10,0,0"
+                  Foreground="White"
+                  Background="#FF0A1129"
+                  CanUserAddRows="False">
+
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding Id}" Width="50">
+                                <DataGridTextColumn.Header>
+                                    <TextBlock Text="ID" Foreground="White"/>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+                            <DataGridTextColumn Binding="{Binding Date}" Width="100">
+                                <DataGridTextColumn.Header>
+                                    <TextBlock Text="Дата" Foreground="White"/>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+                            <DataGridTextColumn Binding="{Binding GroupName}" Width="190">
+                                <DataGridTextColumn.Header>
+                                    <TextBlock Text="Группа" Foreground="White"/>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+                            <DataGridTextColumn Binding="{Binding RoomNumber}" Width="150">
+                                <DataGridTextColumn.Header>
+                                    <TextBlock Text="Аудитория" Foreground="White"/>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+                            <DataGridTextColumn Binding="{Binding TeacherFullName}" Width="150">
+                                <DataGridTextColumn.Header>
+                                    <TextBlock Text="Преподаватель" Foreground="White"/>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+                            <DataGridTextColumn Binding="{Binding LessonRange}" Width="150">
+                                <DataGridTextColumn.Header>
+                                    <TextBlock Text="Диапазон пар" Foreground="White"/>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Учебные практики - Нежинская">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Левая часть (поля ввода) -->
+                    <StackPanel Grid.Row="0" Grid.Column="0" Margin="0,0,10,0">
+
+                        <ComboBox x:Name="GroupComboBoxNezhka"
+                      Style="{StaticResource MaterialDesignFilledComboBox}"
+                      IsEditable="True"
+                      materialDesign:TextFieldAssist.HasClearButton="True"
+                      materialDesign:HintAssist.Hint="Группа"
+                      DisplayMemberPath="Name"
+                      SelectedValuePath="Id"
+                      Margin="0,0,0,10" FontSize="16"/>
+
+                        <ComboBox x:Name="RoomComboBoxNezhkaPractice"
+                      Style="{StaticResource MaterialDesignFilledComboBox}"
+                      IsEditable="True"
+                      materialDesign:TextFieldAssist.HasClearButton="True"
+                      materialDesign:HintAssist.Hint="Аудитория"
+                      DisplayMemberPath="RoomNumber"
+                      SelectedValuePath="Id"
+                      Margin="0,0,0,10" FontSize="16"/>
+
+                        <ComboBox x:Name="TeacherComboBoxNezhka"
+                      Style="{StaticResource MaterialDesignFilledComboBox}"
+                      IsEditable="True"
+                      materialDesign:TextFieldAssist.HasClearButton="True"
+                      materialDesign:HintAssist.Hint="Преподаватель"
+                      DisplayMemberPath="FullName"
+                      SelectedValuePath="Id"
+                      Margin="0,0,0,10" FontSize="16"/>
+
+                        <DatePicker x:Name="PracticeDateNezhka"
+                        DisplayDateStart="{x:Static sys:DateTime.Today}"
+                        Style="{StaticResource MaterialDesignDatePicker}"
+                        Language="ru-RU"
+                        Margin="0,0,0,10" FontSize="16"/>
+
+                        <TextBox x:Name="LessonRangeNezhkaPractice"
+                     Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                     materialDesign:HintAssist.Hint="Диапазон пар (например, 1-2, 4)"
+                     Margin="0,0,0,10" FontSize="16"/>
+                    </StackPanel>
+
+                    <!-- Правая часть (кнопки) -->
+                    <StackPanel Grid.Row="0" Grid.Column="1" VerticalAlignment="Top" Margin="0,75,0,0">
+                        <Button Content="Добавить практику (Нежинская)" Background="#FF0A1129"
+                    Margin="0,0,0,10" Click="AddPracticeNezhka_Click"/>
+
+                        <Button Content="Удалить практику (Нежинская)" Background="#FF290A0A"
+                    Margin="0,10,0,0" Click="DeletePracticeNezhka_Click"/>
+                    </StackPanel>
+
+                    <!-- DataGrid -->
+                    <DataGrid x:Name="PracticeDataGridNezhka"
+                  Grid.Row="1"
+                  Grid.ColumnSpan="2"
+                  AutoGenerateColumns="False"
+                  Margin="0,10,0,0"
+                  Foreground="White"
+                  Background="#FF0A1129"
+                  CanUserAddRows="False">
+
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding Id}" Width="50">
+                                <DataGridTextColumn.Header>
+                                    <TextBlock Text="ID" Foreground="White"/>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+                            <DataGridTextColumn Binding="{Binding Date}" Width="100">
+                                <DataGridTextColumn.Header>
+                                    <TextBlock Text="Дата" Foreground="White"/>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+                            <DataGridTextColumn Binding="{Binding GroupName}" Width="190">
+                                <DataGridTextColumn.Header>
+                                    <TextBlock Text="Группа" Foreground="White"/>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+                            <DataGridTextColumn Binding="{Binding RoomNumber}" Width="150">
+                                <DataGridTextColumn.Header>
+                                    <TextBlock Text="Аудитория" Foreground="White"/>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+                            <DataGridTextColumn Binding="{Binding TeacherFullName}" Width="150">
+                                <DataGridTextColumn.Header>
+                                    <TextBlock Text="Преподаватель" Foreground="White"/>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+                            <DataGridTextColumn Binding="{Binding LessonRange}" Width="150">
+                                <DataGridTextColumn.Header>
+                                    <TextBlock Text="Диапазон пар" Foreground="White"/>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Page>

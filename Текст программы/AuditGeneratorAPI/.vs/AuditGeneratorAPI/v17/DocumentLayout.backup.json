@@ -1,0 +1,579 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\services\\swaggerfileoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\services\\swaggerfileoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0418\u041F\u041B\u041E\u041C\\AuditoryGenerator\\AuditoryGenerator\\bin\\Debug\\teacher_preferences.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\controllers\\weektypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\controllers\\weektypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\models\\assignedroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\models\\assignedroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\models\\weektype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\models\\weektype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\controllers\\assignedroomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\controllers\\assignedroomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\models\\auditgeneratordbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\models\\auditgeneratordbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\controllers\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\controllers\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\controllers\\studypracticescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\controllers\\studypracticescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\services\\studypracticecleanupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\services\\studypracticecleanupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\services\\eventcleanupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\services\\eventcleanupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\controllers\\campuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\controllers\\campuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\models\\studypractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\models\\studypractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\models\\campus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\models\\campus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\models\\roomschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\models\\roomschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\controllers\\roomschedulescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\controllers\\roomschedulescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\models\\qualification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\models\\qualification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\controllers\\weekdayscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\controllers\\weekdayscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\controllers\\teachergroupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\controllers\\teachergroupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\controllers\\qualificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\controllers\\qualificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\models\\weekday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\models\\weekday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|c:\\users\\maksi\\onedrive\\4 \u043A\u0443\u0440\u0441\\\u0434\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\auditgeneratorapi\\auditgeneratorapi\\models\\teachergroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78A27FB-6F9E-4E36-ABED-18D42BA59998}|AuditGeneratorAPI\\AuditGeneratorAPI.csproj|solutionrelative:auditgeneratorapi\\models\\teachergroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 616,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Program.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Program.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvyQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T07:56:00.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FilesController.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Controllers\\FilesController.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Controllers\\FilesController.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Controllers\\FilesController.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Controllers\\FilesController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T11:02:18.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeekTypesController.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Controllers\\WeekTypesController.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Controllers\\WeekTypesController.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Controllers\\WeekTypesController.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Controllers\\WeekTypesController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwD0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T23:09:36.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AssignedRoom.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Models\\AssignedRoom.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Models\\AssignedRoom.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Models\\AssignedRoom.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Models\\AssignedRoom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T08:37:15.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Models\\Event.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Models\\Event.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Models\\Event.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T08:47:01.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SwaggerFileOperationFilter.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Services\\SwaggerFileOperationFilter.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Services\\SwaggerFileOperationFilter.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Services\\SwaggerFileOperationFilter.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Services\\SwaggerFileOperationFilter.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T18:36:30.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\appsettings.json",
+              "RelativeToolTip": "AuditGeneratorAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAD+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-17T08:20:52.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StudyPracticesController.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Controllers\\StudyPracticesController.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Controllers\\StudyPracticesController.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Controllers\\StudyPracticesController.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Controllers\\StudyPracticesController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwBsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T23:03:07.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "teacher_preferences.json",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0418\u041F\u041B\u041E\u041C\\AuditoryGenerator\\AuditoryGenerator\\bin\\Debug\\teacher_preferences.json",
+              "RelativeDocumentMoniker": "..\\..\\\u0414\u0418\u041F\u041B\u041E\u041C\\AuditoryGenerator\\AuditoryGenerator\\bin\\Debug\\teacher_preferences.json",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0418\u041F\u041B\u041E\u041C\\AuditoryGenerator\\AuditoryGenerator\\bin\\Debug\\teacher_preferences.json",
+              "RelativeToolTip": "..\\..\\\u0414\u0418\u041F\u041B\u041E\u041C\\AuditoryGenerator\\AuditoryGenerator\\bin\\Debug\\teacher_preferences.json",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-21T20:13:59.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeekType.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Models\\WeekType.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Models\\WeekType.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Models\\WeekType.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Models\\WeekType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T08:48:03.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GroupsController.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Controllers\\GroupsController.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Controllers\\GroupsController.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Controllers\\GroupsController.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Controllers\\GroupsController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T22:57:03.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TeachersController.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Controllers\\TeachersController.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Controllers\\TeachersController.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Controllers\\TeachersController.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Controllers\\TeachersController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwF0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T23:04:06.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AssignedRoomsController.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Controllers\\AssignedRoomsController.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Controllers\\AssignedRoomsController.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Controllers\\AssignedRoomsController.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Controllers\\AssignedRoomsController.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAYwIMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T22:49:42.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Models\\Group.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Models\\Group.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Models\\Group.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Models\\Group.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T08:47:04.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuditGeneratorDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Models\\AuditGeneratorDbContext.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Models\\AuditGeneratorDbContext.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Models\\AuditGeneratorDbContext.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Models\\AuditGeneratorDbContext.cs",
+              "ViewState": "AgIAALMAAAAAAAAAAAAQwL8AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T08:19:20.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EventCleanupService.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Services\\EventCleanupService.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Services\\EventCleanupService.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Services\\EventCleanupService.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Services\\EventCleanupService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvzQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:29:05.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StudyPracticeCleanupService.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Services\\StudyPracticeCleanupService.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Services\\StudyPracticeCleanupService.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Services\\StudyPracticeCleanupService.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Services\\StudyPracticeCleanupService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:06:35.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Controllers\\EventsController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAwwDEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T22:56:04.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CampusController.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Controllers\\CampusController.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Controllers\\CampusController.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Controllers\\CampusController.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Controllers\\CampusController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T22:54:12.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "StudyPractice.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Models\\StudyPractice.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Models\\StudyPractice.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Models\\StudyPractice.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Models\\StudyPractice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T08:47:23.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RoomsController.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Controllers\\RoomsController.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Controllers\\RoomsController.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Controllers\\RoomsController.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Controllers\\RoomsController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAgwF4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T22:58:04.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Models\\Room.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Models\\Room.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Models\\Room.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T08:47:15.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Campus.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Models\\Campus.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Models\\Campus.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Models\\Campus.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Models\\Campus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T08:46:50.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Models\\Teacher.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Models\\Teacher.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Models\\Teacher.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Models\\Teacher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T08:47:26.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Qualification.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Models\\Qualification.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Models\\Qualification.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Models\\Qualification.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Models\\Qualification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T08:47:08.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RoomSchedule.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Models\\RoomSchedule.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Models\\RoomSchedule.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Models\\RoomSchedule.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Models\\RoomSchedule.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T08:47:19.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RoomSchedulesController.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Controllers\\RoomSchedulesController.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Controllers\\RoomSchedulesController.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Controllers\\RoomSchedulesController.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Controllers\\RoomSchedulesController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T22:58:45.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TeacherGroupsController.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Controllers\\TeacherGroupsController.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Controllers\\TeacherGroupsController.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Controllers\\TeacherGroupsController.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Controllers\\TeacherGroupsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T23:05:31.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "WeekdaysController.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Controllers\\WeekdaysController.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Controllers\\WeekdaysController.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Controllers\\WeekdaysController.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Controllers\\WeekdaysController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T23:07:27.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "QualificationsController.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Controllers\\QualificationsController.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Controllers\\QualificationsController.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Controllers\\QualificationsController.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Controllers\\QualificationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T22:57:36.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TeacherGroup.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Models\\TeacherGroup.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Models\\TeacherGroup.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Models\\TeacherGroup.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Models\\TeacherGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T08:47:30.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Weekday.cs",
+              "DocumentMoniker": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Models\\Weekday.cs",
+              "RelativeDocumentMoniker": "AuditGeneratorAPI\\Models\\Weekday.cs",
+              "ToolTip": "C:\\Users\\maksi\\OneDrive\\4 \u043A\u0443\u0440\u0441\\\u0414\u0438\u043F\u043B\u043E\u043C\u0447\u0438\u043A\\AuditGeneratorAPI\\AuditGeneratorAPI\\Models\\Weekday.cs",
+              "RelativeToolTip": "AuditGeneratorAPI\\Models\\Weekday.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T08:47:57.096Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 401,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

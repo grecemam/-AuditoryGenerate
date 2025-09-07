@@ -1,0 +1,6 @@
+@AuditGeneratorAPI_HostAddress = http://localhost:5064
+
+GET {{AuditGeneratorAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

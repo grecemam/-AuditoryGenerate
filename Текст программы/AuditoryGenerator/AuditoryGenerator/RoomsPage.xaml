@@ -1,0 +1,72 @@
+﻿<Page x:Class="AuditoryGenerator.RoomsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      Title="Управление аудиториями" FontFamily="Bahnschrift">
+
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Список аудиторий -->
+        <GroupBox Header="Аудитории" Margin="5" 
+                  Foreground="White" Style="{StaticResource MaterialDesignGroupBox}"
+                  materialDesign:ColorZoneAssist.Mode="Custom"
+                  materialDesign:ColorZoneAssist.Background="#FF0A1129">
+            <DataGrid x:Name="RoomsDataGrid"
+          AutoGenerateColumns="False"
+          IsReadOnly="True"
+          Background="#FF0A1129"
+          Foreground="White"
+          Height="Auto" Margin="5"
+          SelectionChanged="RoomsDataGrid_SelectionChanged">
+
+                <DataGrid.Columns>
+                    <DataGridTextColumn Foreground="White" Binding="{Binding Id}" Width="50">
+                        <DataGridTextColumn.Header>
+                            <TextBlock Text="ID" Foreground="White"/>
+                        </DataGridTextColumn.Header>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Foreground="White" Binding="{Binding RoomNumber}" Width="150">
+                        <DataGridTextColumn.Header>
+                            <TextBlock Text="Номер аудитории" Foreground="White"/>
+                        </DataGridTextColumn.Header>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Foreground="White" Binding="{Binding CampusName}" Width="200">
+                        <DataGridTextColumn.Header>
+                            <TextBlock Text="Корпус" Foreground="White"/>
+                        </DataGridTextColumn.Header>
+                    </DataGridTextColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+            
+        </GroupBox>
+
+        <!-- Управление аудиториями -->
+        <GroupBox Header="Добавление / Редактирование" Grid.Column="1" Margin="5"
+                  Foreground="White" Style="{StaticResource MaterialDesignGroupBox}"
+                  materialDesign:ColorZoneAssist.Mode="Custom"
+                  materialDesign:ColorZoneAssist.Background="#FF0A1129">
+            <StackPanel>
+                <TextBlock Text="Номер аудитории:" Foreground="#FF0A1129" Margin="5"/>
+                <TextBox x:Name="RoomNumberTextBox" Foreground="#FF0A1129" Margin="5" BorderBrush="#FF0A1129" FontSize="16"/>
+
+                <TextBlock Text="Корпус:" Foreground="#FF0A1129" Margin="5"/>
+                <ComboBox Style="{StaticResource MaterialDesignFilledComboBox}"
+                         IsEditable="True"
+                          materialDesign:TextFieldAssist.HasClearButton="True"
+                    x:Name="CampusComboBox" Margin="5" DisplayMemberPath="Name" SelectedValuePath="Id" Foreground="Black" FontSize="14">
+                </ComboBox>
+
+                <Button Content="Добавить аудиторию" Background="#FF0A1129" Click="AddRoomButton_Click" Margin="5"/>
+                <Button Content="Редактировать аудиторию" Background="#FF0A1129" Click="EditRoomButton_Click" Margin="5"/>
+                <Button Content="Удалить аудиторию" Background="#FF0A1129" Click="DeleteRoomButton_Click" Margin="5"/>
+            </StackPanel>
+        </GroupBox>
+    </Grid>
+</Page>

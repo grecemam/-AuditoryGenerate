@@ -1,0 +1,97 @@
+[
+  {
+    "Name": "С.С. Иконникова",
+    "IsSelected": true,
+    "PreferredFloor": 2
+  },
+  {
+    "Name": "А.Р. Каминьски",
+    "IsSelected": true,
+    "PreferredFloor": 2
+  },
+  {
+    "Name": "Э.Ш. Хисяметдинова",
+    "IsSelected": true,
+    "PreferredFloor": 2
+  },
+  {
+    "Name": "А.А. Никонова",
+    "IsSelected": true,
+    "PreferredFloor": 2
+  },
+  {
+    "Name": "Д.Д. Юшина",
+    "IsSelected": false,
+    "PreferredFloor": 0
+  },
+  {
+    "Name": "Л.Г. Осипян",
+    "IsSelected": false,
+    "PreferredFloor": 3
+  },
+  {
+    "Name": "М.В. Черемных",
+    "IsSelected": false,
+    "PreferredFloor": 0
+  },
+  {
+    "Name": "Е.М. Парамонова",
+    "IsSelected": false,
+    "PreferredFloor": 0
+  },
+  {
+    "Name": "О.О. Токарчук",
+    "IsSelected": false,
+    "PreferredFloor": 0
+  },
+  {
+    "Name": "П.В. Агафонов",
+    "IsSelected": false,
+    "PreferredFloor": 0
+  },
+  {
+    "Name": "М.А. Горбунова",
+    "IsSelected": false,
+    "PreferredFloor": 0
+  },
+  {
+    "Name": "А.К. Азизов",
+    "IsSelected": false,
+    "PreferredFloor": 0
+  },
+  {
+    "Name": "О.В. Кручинина",
+    "IsSelected": true,
+    "PreferredFloor": 2
+  },
+  {
+    "Name": "Ю.И. Кортукова",
+    "IsSelected": false,
+    "PreferredFloor": 0
+  },
+  {
+    "Name": "К.А. Липатова",
+    "IsSelected": false,
+    "PreferredFloor": 0
+  },
+  {
+    "Name": "Б.Г. Хруленко",
+    "IsSelected": false,
+    "PreferredFloor": 0
+  },
+  {
+    "Name": "Д.С. Городецкая",
+    "IsSelected": false,
+    "PreferredFloor": 0
+  },
+  {
+    "Name": "В.Е. Арутюнов",
+    "IsSelected": false,
+    "PreferredFloor": 0
+  },
+  {
+    "Name": "С.С. Андрианова",
+    "IsSelected": false,
+    "PreferredFloor": 0
+  }
+]

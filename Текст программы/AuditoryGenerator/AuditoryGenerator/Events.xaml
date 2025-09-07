@@ -1,0 +1,238 @@
+﻿<Page x:Class="AuditoryGenerator.Events"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AuditoryGenerator"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      xmlns:sys="clr-namespace:System;assembly=mscorlib"
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Events">
+
+    <Grid Cursor="">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Таб контрол -->
+        <TabControl Style="{StaticResource MaterialDesignFilledTabControl}" 
+                    materialDesign:ColorZoneAssist.Mode="Custom"
+                    materialDesign:ColorZoneAssist.Foreground="White"
+                    materialDesign:ColorZoneAssist.Background="#FF0A1129"
+                    Grid.Row="1"
+                    Margin="10">
+
+            <!-- Таб для Нахимовского проспекта -->
+            <TabItem Header="Нахимовский проспект">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <!-- Поля ввода -->
+                        <ColumnDefinition Width="1*"/>
+                        <!-- Кнопки -->
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Левая часть (поля ввода) -->
+                    <StackPanel Grid.Row="0" Grid.Column="0" Margin="0,0,10,0">
+                        <!-- Комбобокс для выбора аудитории -->
+                        <ComboBox Style="{StaticResource MaterialDesignFilledComboBox}"
+                      IsEditable="True"
+                      materialDesign:HintAssist.Hint="Аудитория"
+                      x:Name="RoomComboBoxNahim"
+                      SelectedValuePath="Id"
+                      DisplayMemberPath="RoomNumber"
+                      Foreground="Black" FontSize="16" Margin="0,0,0,10"/>
+
+                        <!-- Дата мероприятия -->
+                        <DatePicker x:Name="EventDateNahim"
+                         DisplayDateStart="{x:Static sys:DateTime.Today}"
+                        materialDesign:HintAssist.Hint="Дата мероприятия"
+                        Style="{StaticResource MaterialDesignDatePicker}"
+                        Margin="0,0,0,10" FontSize="16" SelectedDateFormat="Long"
+                        Language="ru-RU"/>
+
+                        <!-- Название мероприятия -->
+                        <TextBox x:Name="EventNameNahim"
+                     Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                     materialDesign:HintAssist.Hint="Название"
+                     Margin="0,0,0,10" FontSize="16"/>
+
+                        <!-- Диапазон пар -->
+                        <TextBox x:Name="LessonRangeNahim"
+                     Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                     materialDesign:HintAssist.Hint="Диапазон пар (например, 1-2, 4)"
+                     Margin="0,0,0,10" FontSize="16"/>
+                    </StackPanel>
+
+                    <!-- Правая часть (кнопки) -->
+                    <StackPanel Grid.Row="0" Grid.Column="1" VerticalAlignment="Top" Margin="0,75,0,0">
+                        <Button Content="Добавить" 
+                    Background="#FF0A1129" 
+                    Click="AddEventNahim_Click" 
+                    Margin="0,0,0,10" Width="200"/>
+
+                        <Button Content="Удалить" 
+                    Background="#FF290A0A" 
+                    Click="DeleteEventNahim_Click" 
+                    Margin="0,10,0,0" Width="200"/>
+                    </StackPanel>
+
+                    <!-- Таблица для отображения существующих мероприятий -->
+                    <DataGrid x:Name="EventsDataGridNahim"
+                  AutoGenerateColumns="False"
+                  Grid.Row="1"
+                  Grid.ColumnSpan="2"
+                  Margin="0,10,0,0"
+                  Foreground="White"
+                  Background="#FF0A1129"
+                  CanUserAddRows="False">
+
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding Id}" Width="50">
+                                <DataGridTextColumn.Header>
+                                    <TextBlock Text="ID" Foreground="White"/>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+                            <DataGridTextColumn Binding="{Binding Date}" Width="100">
+                                <DataGridTextColumn.Header>
+                                    <TextBlock Text="Дата" Foreground="White"/>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+                            <DataGridTextColumn Binding="{Binding Name}" Width="190">
+                                <DataGridTextColumn.Header>
+                                    <TextBlock Text="Название мероприятия" Foreground="White"/>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+                            <DataGridTextColumn Binding="{Binding RoomNumber}" Width="150">
+                                <DataGridTextColumn.Header>
+                                    <TextBlock Text="Аудитория" Foreground="White"/>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+                            <DataGridTextColumn Binding="{Binding LessonRange}" Width="150">
+                                <DataGridTextColumn.Header>
+                                    <TextBlock Text="Диапазон пар" Foreground="White"/>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+
+            <!-- Таб для Нежинской -->
+            <TabItem Header="Нежинская">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <!-- Поля ввода -->
+                        <ColumnDefinition Width="1*"/>
+                        <!-- Кнопки -->
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Левая часть (поля ввода) -->
+                    <StackPanel Grid.Row="0" Grid.Column="0" Margin="0,0,10,0">
+                        <!-- Комбобокс для выбора аудитории -->
+                        <ComboBox Style="{StaticResource MaterialDesignFilledComboBox}"
+                      IsEditable="True"
+                      materialDesign:HintAssist.Hint="Аудитория"
+                      x:Name="RoomComboBoxNezh"
+                      SelectedValuePath="Id"
+                      DisplayMemberPath="RoomNumber"
+                      Foreground="Black" FontSize="16" Margin="0,0,0,10"/>
+
+                        <!-- Дата мероприятия -->
+                        <DatePicker x:Name="EventDateNezh"
+                        DisplayDateStart="{x:Static sys:DateTime.Today}"
+                        materialDesign:HintAssist.Hint="Дата мероприятия"
+                        Style="{StaticResource MaterialDesignDatePicker}"
+                        Margin="0,0,0,10" FontSize="16" SelectedDateFormat="Long"
+                        Language="ru-RU"/>
+
+                        <!-- Название мероприятия -->
+                        <TextBox x:Name="EventNameNezh"
+                     Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                     materialDesign:HintAssist.Hint="Название"
+                     Margin="0,0,0,10" FontSize="16"/>
+
+                        <!-- Диапазон пар -->
+                        <TextBox x:Name="LessonRangeNezh"
+                     Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                     materialDesign:HintAssist.Hint="Диапазон пар (например, 1-2, 4)"
+                     Margin="0,0,0,10" FontSize="16"/>
+                    </StackPanel>
+
+                    <!-- Правая часть (кнопки) -->
+                    <StackPanel Grid.Row="0" Grid.Column="1" VerticalAlignment="Top" Margin="0,75,0,0">
+                        <Button Content="Добавить" 
+                    Background="#FF0A1129" 
+                    Click="AddEventNezh_Click" 
+                    Margin="0,0,0,10" Width="200"/>
+
+                        <Button Content="Удалить" 
+                    Background="#FF290A0A" 
+                    Click="DeleteEventNezh_Click" 
+                    Margin="0,10,0,0" Width="200"/>
+                    </StackPanel>
+
+                    <!-- Таблица для отображения существующих мероприятий -->
+                    <DataGrid x:Name="EventsDataGridNezh"
+                  AutoGenerateColumns="False"
+                  Grid.Row="1"
+                  Grid.ColumnSpan="2"
+                  Margin="0,10,0,0"
+                  Foreground="White"
+                  Background="#FF0A1129"
+                  CanUserAddRows="False">
+
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding Id}" Width="50">
+                                <DataGridTextColumn.Header>
+                                    <TextBlock Text="ID" Foreground="White"/>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+                            <DataGridTextColumn Binding="{Binding Date}" Width="100">
+                                <DataGridTextColumn.Header>
+                                    <TextBlock Text="Дата" Foreground="White"/>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+                            <DataGridTextColumn Binding="{Binding Name}" Width="190">
+                                <DataGridTextColumn.Header>
+                                    <TextBlock Text="Название мероприятия" Foreground="White"/>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+                            <DataGridTextColumn Binding="{Binding RoomNumber}" Width="150">
+                                <DataGridTextColumn.Header>
+                                    <TextBlock Text="Аудитория" Foreground="White"/>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+                            <DataGridTextColumn Binding="{Binding LessonRange}" Width="150">
+                                <DataGridTextColumn.Header>
+                                    <TextBlock Text="Диапазон пар" Foreground="White"/>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Page>

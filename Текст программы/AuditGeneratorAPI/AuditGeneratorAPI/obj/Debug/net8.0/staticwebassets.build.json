@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "ZjMc2juexIDBNCEExY2ynrqjr6BgYhOA4DiYmTrOn7Y=",
+  "Source": "AuditGeneratorAPI",
+  "BasePath": "_content/AuditGeneratorAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AuditGeneratorAPI\\wwwroot",
+      "Source": "AuditGeneratorAPI",
+      "ContentRoot": "C:\\Users\\maksi\\OneDrive\\4 курс\\Дипломчик\\AuditGeneratorAPI\\AuditGeneratorAPI\\wwwroot\\",
+      "BasePath": "_content/AuditGeneratorAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\maksi\\OneDrive\\4 курс\\Дипломчик\\AuditGeneratorAPI\\AuditGeneratorAPI\\wwwroot\\files\\Расписание.json",
+      "SourceId": "AuditGeneratorAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maksi\\OneDrive\\4 курс\\Дипломчик\\AuditGeneratorAPI\\AuditGeneratorAPI\\wwwroot\\",
+      "BasePath": "_content/AuditGeneratorAPI",
+      "RelativePath": "files/Расписание#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "Always",
+      "OriginalItemSpec": "wwwroot\\files\\Расписание.json"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "files/Расписание.5ipweew5fc.json",
+      "AssetFile": "C:\\Users\\maksi\\OneDrive\\4 курс\\Дипломчик\\AuditGeneratorAPI\\AuditGeneratorAPI\\wwwroot\\files\\Расписание.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 14:25:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "files/Расписание.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "files/Расписание.json",
+      "AssetFile": "C:\\Users\\maksi\\OneDrive\\4 курс\\Дипломчик\\AuditGeneratorAPI\\AuditGeneratorAPI\\wwwroot\\files\\Расписание.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 14:25:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    }
+  ]
+}

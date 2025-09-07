@@ -1,0 +1,51 @@
+﻿<Page x:Class="AuditoryGenerator.PageWelcome"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d"
+      Title="PageWelcome">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <Grid Margin="20">
+            <materialDesign:Card Padding="20" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Top" Width="Auto" BorderBrush="Black" Background="#FFA9D7FF">
+                <StackPanel>
+                    <TextBlock Text="Добро пожаловать в приложение «AuditorHelper»"
+                               FontSize="24"
+                               FontWeight="Bold"
+                               Foreground="{DynamicResource MaterialDesignBody}"
+                               TextAlignment="Center"
+                               Margin="0,0,0,20" />
+
+                    <TextBlock Text="Это приложение предназначено для автоматизации управления аудиторным фондом колледжа. Ниже представлена краткая инструкция по основным разделам:"
+                               FontSize="16"
+                               TextWrapping="Wrap"
+                               Margin="0,0,0,20" />
+
+                    <TextBlock FontSize="16" FontWeight="Bold" Text="Разделы бокового меню:" Margin="0,0,0,10" />
+
+                    <StackPanel Margin="10,0,0,0">
+                        <TextBlock Text="• Корпуса — просмотр и управление списком корпусов (например, Нахимовский и Нежинская)." FontSize="14" Margin="0,5"/>
+                        <TextBlock Text="• События — добавление мероприятий и учебных практик, отображающихся в расписании." FontSize="14" Margin="0,5"/>
+                        <TextBlock Text="• Привязка аудиторий — назначение закрепленных аудиторий для преподавателей по корпусам." FontSize="14" Margin="0,5"/>
+                        <TextBlock Text="• Управление преподавателями и аудиториями — добавление и редактирование преподавателей, аудиторий и квалификаций." FontSize="14" Margin="0,5"/>
+                        <TextBlock Text="• Загрузить расписание — импорт расписания в формате JSON, полученного через парсер с сайта колледжа." FontSize="14" Margin="0,5"/>
+                        <TextBlock Text="• Загруженные файлы — просмотр уже загруженных расписаний и текущих данных." FontSize="14" Margin="0,5"/>
+                    </StackPanel>
+
+                    <Separator Margin="0,20,0,20" />
+
+                    <TextBlock Text="Полезные советы:"
+                               FontSize="16"
+                               FontWeight="Bold"
+                               Margin="0,0,0,10" />
+
+                    <TextBlock FontSize="14" TextWrapping="Wrap"><Run Text="• Все действия (добавление, редактирование, удаление) осуществляются через соответствующие кнопки на вкладках. "/><LineBreak/><Run Text="• После загрузки расписания, можно перейти к генерации Excel-файлов аудиторного фонда."/><LineBreak/><Run Text="• Для корректной генерации важно правильно привязать преподавателей к аудиториям и задать тип недели. "/><LineBreak/><Run Text="• Все изменения сохраняются автоматически при успешном выполнении действий"/><LineBreak/><Run Text="*После успешной генерации файла - он самостоятельно запуститься :)"/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
+
+                    <TextBlock Margin="0,30,0,0" FontSize="12" FontStyle="Italic" Text="Разработано в рамках дипломного проекта (работы) 2025 года." />
+                </StackPanel>
+            </materialDesign:Card>
+        </Grid>
+    </ScrollViewer>
+</Page>
